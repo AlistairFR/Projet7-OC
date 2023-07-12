@@ -70,16 +70,16 @@ exports.rateBook = (req, res, next) => {
     Book.findOne({ _id: req.params.id })
     .then(book => {
         if (book.ratings.find(rating => rating.userId === user)) {
-            res.status(401).json({ message: "Livre déjà noté"})
+            res.status(401).json({ message: "Vous avez déjà noté le livre !"})
         } else {
             const newRating = {userId: user, grade: req.body.rating}
             const updatedRatings = [...book.ratings, newRating]
-            const calcAverageRating = (ratings) => {
+            const AverageRating = (ratings) => {
                 const sum = ratings.reduce((total, rate) => total + rate.grade, 0)
                 const average = sum / ratings.length
                 return parseFloat(average.toFixed(2))
             }
-            const updateAverageRating = calcAverageRating(updatedRatings)
+            const updateAverageRating = AverageRating(updatedRatings)
             Book.findOneAndUpdate(
                 {_id: req.params.id, 'ratings.userId': { $ne: user }},
                 { $push: { ratings: newRating }, averageRating: updateAverageRating },
