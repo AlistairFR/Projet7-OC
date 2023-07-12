@@ -10,7 +10,7 @@ router.post('/', bookController.createBook);
 router.get("/", bookController.getBooks);
 
 // GET d'un livre spécifique
-router.get("/:id", bookController.getBooks);
+router.get("/:id", bookController.getOneBook);
 
 // PUT d'un livre modifié
 router.put("/:id", bookController.updateBook);
