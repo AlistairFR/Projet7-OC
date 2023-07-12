@@ -5,15 +5,13 @@ const path = require("path");
 const bookRoutes = require("./routes/book");
 const userRoutes = require("./routes/user");
 
+const app = express();
+
 mongoose.connect('mongodb+srv://oc_projet7_admin:adminp7oc@cluster0.xnqr89c.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
-
-const app = express();
-
-app.use(express.json());
 
 //Permet les requêtes cross-origin depuis n'importe quel domaine
 app.use((req, res, next) => {
@@ -23,8 +21,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/api/books', bookRoutes);
+app.use(express.json());
 app.use("/api/auth", userRoutes);
+app.use('/api/books', bookRoutes);
 app.use('/images', express.static(path.join(__dirname, "images")));
 
 module.exports = app;
