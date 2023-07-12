@@ -9,7 +9,7 @@ const bookController = require("../controllers/book");
 router.post('/', auth, multer, bookController.createBook);
 router.get("/", auth, bookController.getBooks);
 router.get("/:id", auth, bookController.getOneBook);
-router.put("/:id", auth, bookController.updateBook);
+router.put("/:id", auth, multer, bookController.updateBook);
 router.delete("/:id", auth, bookController.deleteBook);
 
-module.exports = router;  
+module.exports = router;
