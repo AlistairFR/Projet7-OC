@@ -8,7 +8,8 @@ exports.createBook = (req, res, next) => {
     const book = new Book({
         ...bookObject,
         userId: req.auth.userId,
-        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`,
+        averageRating: bookObject.ratings[0].grade
     });
     book.save()
         .then(() => {res.status(201).json({ message : "Livre enregistré !" })})
@@ -62,4 +63,31 @@ exports.deleteBook = (req, res, next) => {
             }
         })
         .catch(error => res.status(500).json({ error }));
+}
+
+exports.rateBook = (req, res, next) => {
+    const user = req.body.userId
+    Book.findOne({ _id: req.params.id })
+    .then(book => {
+        if (book.ratings.find(rating => rating.userId === user)) {
+            res.status(401).json({ message: "Livre déjà noté"})
+        } else {
+            const newRating = {userId: user, grade: req.body.rating}
+            const updatedRatings = [...book.ratings, newRating]
+            const calcAverageRating = (ratings) => {
+                const sum = ratings.reduce((total, rate) => total + rate.grade, 0)
+                const average = sum / ratings.length
+                return parseFloat(average.toFixed(2))
+            }
+            const updateAverageRating = calcAverageRating(updatedRatings)
+            Book.findOneAndUpdate(
+                {_id: req.params.id, 'ratings.userId': { $ne: user }},
+                { $push: { ratings: newRating }, averageRating: updateAverageRating },
+                { new: true }
+            )
+            .then(updatedBook => res.status(201).json(updatedBook))
+            .catch(error => res.status(401).json({ error }))
+        }
+    })
+    .catch(error => res.status(401).json({ error }))
 }
