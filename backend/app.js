@@ -7,6 +7,7 @@ const userRoutes = require("./routes/user");
 
 const app = express();
 
+// Gère la connexion à la base de données
 mongoose.connect('mongodb+srv://oc_projet7_admin:adminp7oc@cluster0.xnqr89c.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })

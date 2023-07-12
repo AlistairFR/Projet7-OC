@@ -8,7 +8,7 @@ exports.createBook = (req, res, next) => {
     const book = new Book({
         ...bookObject,
         userId: req.auth.userId,
-        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`,
+        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}.webp`,
         averageRating: bookObject.ratings[0].grade
     });
     book.save()
@@ -31,7 +31,7 @@ exports.getOneBook = (req, res, next) => {
 exports.updateBook = (req, res, next) => {
     const bookObject = req.file ? {
         ...JSON.parse(req.body.book),
-        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}.webp`
     } : { ...req.body };
 
     delete bookObject._userId;
