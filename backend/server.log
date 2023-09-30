@@ -1,0 +1,360 @@
+App 3451928 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16
+App 3451928 output: app.set('port', port);
+App 3451928 output:     ^
+App 3451928 output: TypeError: app.set is not a function
+App 3451928 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16:5)
+App 3451928 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3451928 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3451928 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3451928 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+App 3451928 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3451928 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3451928 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3451928 output:     at loadApplication (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 3451928 output:     at setupEnvironment (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 3453945 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16
+App 3453945 output: app.set('port', port);
+App 3453945 output:     ^
+App 3453945 output: TypeError: app.set is not a function
+App 3453945 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16:5)
+App 3453945 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3453945 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3453945 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3453945 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+App 3453945 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3453945 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3453945 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3453945 output:     at loadApplication (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 3453945 output:     at setupEnvironment (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 3454711 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16
+App 3454711 output: app.set('port', port);
+App 3454711 output:     ^
+App 3454711 output: TypeError: app.set is not a function
+App 3454711 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js:16:5)
+App 3454711 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3454711 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3454711 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3454711 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+App 3454711 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3454711 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3454711 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3454711 output:     at loadApplication (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 3454711 output:     at setupEnvironment (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 3501778 output: node:internal/modules/cjs/loader:1031
+App 3501778 output:   throw err;
+App 3501778 output:   ^
+App 3501778 output: Error: Cannot find module 'dotenv'
+App 3501778 output: Require stack:
+App 3501778 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js
+App 3501778 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js
+App 3501778 output: - /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js
+App 3501778 output:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+App 3501778 output:     at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+App 3501778 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3501778 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3501778 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3501778 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js:5:1)
+App 3501778 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3501778 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3501778 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3501778 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+App 3501778 output:   code: 'MODULE_NOT_FOUND',
+App 3501778 output:   requireStack: [
+App 3501778 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js',
+App 3501778 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js',
+App 3501778 output:     '/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js'
+App 3501778 output:   ]
+App 3501778 output: }
+App 3523377 output: node:internal/modules/cjs/loader:1031
+App 3523377 output:   throw err;
+App 3523377 output:   ^
+App 3523377 output: Error: Cannot find module 'dotenv'
+App 3523377 output: Require stack:
+App 3523377 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js
+App 3523377 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js
+App 3523377 output: - /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js
+App 3523377 output:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+App 3523377 output:     at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+App 3523377 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3523377 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3523377 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3523377 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js:5:1)
+App 3523377 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3523377 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3523377 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3523377 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+App 3523377 output:   code: 'MODULE_NOT_FOUND',
+App 3523377 output:   requireStack: [
+App 3523377 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js',
+App 3523377 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js',
+App 3523377 output:     '/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js'
+App 3523377 output:   ]
+App 3523377 output: }
+App 3556196 output: node:internal/modules/cjs/loader:1031
+App 3556196 output:   throw err;
+App 3556196 output:   ^
+App 3556196 output: Error: Cannot find module 'dotenv'
+App 3556196 output: Require stack:
+App 3556196 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js
+App 3556196 output: - /home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js
+App 3556196 output: - /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js
+App 3556196 output:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+App 3556196 output:     at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+App 3556196 output:     at Module.require (node:internal/modules/cjs/loader:1100:19)
+App 3556196 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 3556196 output:     at require (node:internal/modules/cjs/helpers:108:18)
+App 3556196 output:     at Object.<anonymous> (/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js:5:1)
+App 3556196 output:     at Module._compile (node:internal/modules/cjs/loader:1198:14)
+App 3556196 output:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+App 3556196 output:     at Module.load (node:internal/modules/cjs/loader:1076:32)
+App 3556196 output:     at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+App 3556196 output:   code: 'MODULE_NOT_FOUND',
+App 3556196 output:   requireStack: [
+App 3556196 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/app.js',
+App 3556196 output:     '/home/wije1897/public_html/MonVieuxGrimoire/Backend/server.js',
+App 3556196 output:     '/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js'
+App 3556196 output:   ]
+App 3556196 output: }
+App 3568756 output: (node:3568756) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3568756 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3568756 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.1f3dku
+App 3568756 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.1f3dku
+App 3568756 output: Connexion à MongoDB échouée !
+App 3716040 output: (node:3716040) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3716040 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3716040 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.3agl1p
+App 3716040 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.3agl1p
+App 3716040 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 3716040 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 3716040 output:     at listOnTimeout (node:internal/timers:559:17)
+App 3716040 output:     at processTimers (node:internal/timers:502:7)
+App 3716040 output: Connexion à MongoDB échouée !
+App 3727372 output: (node:3727372) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3727372 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3727372 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.1teg4j
+App 3727372 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.f1lsiAt/apps.s/node.1teg4j
+App 3727372 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 3727372 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 3727372 output:     at listOnTimeout (node:internal/timers:559:17)
+App 3727372 output:     at processTimers (node:internal/timers:502:7)
+App 3727372 output: Connexion à MongoDB échouée !
+App 3727372 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 3727372 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 3727372 output:     at listOnTimeout (node:internal/timers:559:17)
+App 3727372 output:     at processTimers (node:internal/timers:502:7)
+App 3727372 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 3727372 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 3727372 output:     at listOnTimeout (node:internal/timers:559:17)
+App 3727372 output:     at processTimers (node:internal/timers:502:7)
+App 853954 output: (node:853954) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 853954 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 853954 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.iCaYmxU/apps.s/node.1d5e8v
+App 853954 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.iCaYmxU/apps.s/node.1d5e8v
+App 853954 output: Connexion à MongoDB échouée !
+App 853954 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 853954 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 853954 output:     at listOnTimeout (node:internal/timers:559:17)
+App 853954 output:     at processTimers (node:internal/timers:502:7)
+App 1621597 output: (node:1621597) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1621597 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1621597 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dF9p6Wa/apps.s/node.ee9vg
+App 1621597 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dF9p6Wa/apps.s/node.ee9vg
+App 1621597 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1621597 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1621597 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1621597 output:     at processTimers (node:internal/timers:502:7)
+App 1621597 output: Connexion à MongoDB échouée !
+App 1645116 output: (node:1645116) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1645116 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1645116 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dY8mREu/apps.s/node.3jeg8g
+App 1645116 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dY8mREu/apps.s/node.3jeg8g
+App 1645116 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1645116 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1645116 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1645116 output:     at processTimers (node:internal/timers:502:7)
+App 1645116 output: Connexion à MongoDB échouée !
+App 1684969 output: (node:1684969) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1684969 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1684969 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dY8mREu/apps.s/node.3ucd4w
+App 1684969 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dY8mREu/apps.s/node.3ucd4w
+App 1684969 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1684969 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1684969 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1684969 output:     at processTimers (node:internal/timers:502:7)
+App 1684969 output: Connexion à MongoDB échouée !
+App 1771323 output: (node:1771323) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1771323 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1771323 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.7JoCvNi/apps.s/node.18aco5
+App 1771323 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.7JoCvNi/apps.s/node.18aco5
+App 1771323 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1771323 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1771323 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1771323 output:     at processTimers (node:internal/timers:502:7)
+App 1771323 output: Connexion à MongoDB échouée !
+App 1771323 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1771323 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1771323 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1771323 output:     at processTimers (node:internal/timers:502:7)
+App 1820584 output: (node:1820584) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1820584 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1820584 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.7JoCvNi/apps.s/node.1f2r5g
+App 1820584 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.7JoCvNi/apps.s/node.1f2r5g
+App 1820584 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1820584 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1820584 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1820584 output:     at processTimers (node:internal/timers:502:7)
+App 1820584 output: Connexion à MongoDB échouée !
+App 1824660 output: (node:1824660) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 1824660 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 1824660 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.Yse7PkN/apps.s/node.2j8v8o
+App 1824660 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.Yse7PkN/apps.s/node.2j8v8o
+App 1824660 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1824660 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1824660 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1824660 output:     at processTimers (node:internal/timers:502:7)
+App 1824660 output: Connexion à MongoDB échouée !
+App 1824660 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 1824660 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 1824660 output:     at listOnTimeout (node:internal/timers:559:17)
+App 1824660 output:     at processTimers (node:internal/timers:502:7)
+App 2389797 output: (node:2389797) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 2389797 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 2389797 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.jzrVFdo/apps.s/node.2js6md
+App 2389797 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.jzrVFdo/apps.s/node.2js6md
+App 2389797 output: Error fetching books: MongooseError: Operation `books.find()` buffering timed out after 10000ms
+App 2389797 output:     at Timeout.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+App 2389797 output:     at listOnTimeout (node:internal/timers:559:17)
+App 2389797 output:     at processTimers (node:internal/timers:502:7)
+App 3600506 output: (node:3600506) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3600506 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3600506 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.hrfOIjw/apps.s/node.1m3eja
+App 3600506 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.hrfOIjw/apps.s/node.1m3eja
+App 3600506 output: Connexion à MongoDB réussie !
+App 3722683 output: (node:3722683) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3722683 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3722683 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.rJBEYc4/apps.s/node.2qxhmq
+App 3722683 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.rJBEYc4/apps.s/node.2qxhmq
+App 3722683 output: Connexion à MongoDB réussie !
+App 3723243 output: (node:3723243) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3723243 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3723243 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.NXt29Jv/apps.s/node.v9r05
+App 3723243 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.NXt29Jv/apps.s/node.v9r05
+App 3723243 output: Connexion à MongoDB réussie !
+App 3723243 output: Error: ENOENT: no such file or directory, open 'images/wj-logo.png1695999334500.png'
+App 3765401 output: (node:3765401) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3765401 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3765401 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.ccOBvjc/apps.s/node.2dy9gi
+App 3765401 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.ccOBvjc/apps.s/node.2dy9gi
+App 3765401 output: Connexion à MongoDB réussie !
+App 3766086 output: (node:3766086) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3766086 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3766086 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.p7JP6CQ/apps.s/node.nb31h
+App 3766086 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.p7JP6CQ/apps.s/node.nb31h
+App 3766086 output: Connexion à MongoDB réussie !
+App 3776585 output: (node:3776585) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3776585 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3776585 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.tuGiuHI/apps.s/node.ix2us
+App 3776585 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.tuGiuHI/apps.s/node.ix2us
+App 3776585 output: Connexion à MongoDB réussie !
+App 3788180 output: (node:3788180) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3788180 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3788180 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.ytVEzO8/apps.s/node.46fdu6
+App 3788180 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.ytVEzO8/apps.s/node.46fdu6
+App 3788180 output: Connexion à MongoDB réussie !
+App 3788180 output: Error: ENOENT: no such file or directory, open 'images/wj-logo.png1696000177615.png'
+App 3811427 output: (node:3811427) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3811427 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3811427 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.QXHrW5r/apps.s/node.23lx3f
+App 3811427 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.QXHrW5r/apps.s/node.23lx3f
+App 3811427 output: Connexion à MongoDB réussie !
+App 3828994 output: (node:3828994) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3828994 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3828994 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.2Tfc7a1/apps.s/node.1id62k
+App 3828994 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.2Tfc7a1/apps.s/node.1id62k
+App 3828994 output: Connexion à MongoDB réussie !
+App 3835261 output: (node:3835261) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3835261 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3835261 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dvM6rVP/apps.s/node.3txqwd
+App 3835261 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.dvM6rVP/apps.s/node.3txqwd
+App 3835261 output: Connexion à MongoDB réussie !
+App 3851039 output: (node:3851039) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3851039 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3851039 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.VI94emp/apps.s/node.1pwl2n
+App 3851039 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.VI94emp/apps.s/node.1pwl2n
+App 3851039 output: Connexion à MongoDB réussie !
+App 3851039 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001313445.undefined'
+App 3886745 output: (node:3886745) Warning: Accessing non-existent property 'call' of module exports inside circular dependency
+App 3886745 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 3886745 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.0EMfNdx/apps.s/node.bv65y
+App 3886745 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.0EMfNdx/apps.s/node.bv65y
+App 3886745 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001451700.undefined'
+App 3886745 output: Connexion à MongoDB réussie !
+App 3886745 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001591249.undefined'
+App 3886745 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001624239.undefined'
+App 3886745 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001649777.undefined'
+App 3905437 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.0EMfNdx/apps.s/node.33gtt6
+App 3905437 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.0EMfNdx/apps.s/node.33gtt6
+App 3905437 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001728617.undefined'
+App 3905437 output: Connexion à MongoDB réussie !
+App 3905437 output: Error: ENOENT: no such file or directory, open 'images/fractures.jpg1696001733450.undefined'
+App 3960235 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.1h8v31
+App 3960235 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.1h8v31
+App 3960235 output: Connexion à MongoDB réussie !
+App 3960235 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12
+App 3960235 output:         if (!fs.existsSync(dir)) {
+App 3960235 output:         ^
+App 3960235 output: ReferenceError: fs is not defined
+App 3960235 output:     at DiskStorage.destination [as getDestination] (/home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12:9)
+App 3960235 output:     at DiskStorage._handleFile (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/storage/disk.js:31:8)
+App 3960235 output:     at /home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:137:17
+App 3960235 output:     at allowAll (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:8:3)
+App 3960235 output:     at wrappedFileFilter (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:44:7)
+App 3960235 output:     at Multipart.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:107:7)
+App 3960235 output:     at Multipart.emit (node:events:513:28)
+App 3960235 output:     at HeaderParser.cb (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+App 3960235 output:     at HeaderParser.push (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+App 3960235 output:     at SBMH.ssCb [as _cb] (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+App 3962710 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.333vec
+App 3962710 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.333vec
+App 3962710 output: Connexion à MongoDB réussie !
+App 3962710 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12
+App 3962710 output:         if (!fs.existsSync(dir)) {
+App 3962710 output:         ^
+App 3962710 output: ReferenceError: fs is not defined
+App 3962710 output:     at DiskStorage.destination [as getDestination] (/home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12:9)
+App 3962710 output:     at DiskStorage._handleFile (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/storage/disk.js:31:8)
+App 3962710 output:     at /home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:137:17
+App 3962710 output:     at allowAll (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:8:3)
+App 3962710 output:     at wrappedFileFilter (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:44:7)
+App 3962710 output:     at Multipart.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:107:7)
+App 3962710 output:     at Multipart.emit (node:events:513:28)
+App 3962710 output:     at HeaderParser.cb (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+App 3962710 output:     at HeaderParser.push (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+App 3962710 output:     at SBMH.ssCb [as _cb] (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+App 3992688 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.2qzji7
+App 3992688 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.2qzji7
+App 3992688 output: Connexion à MongoDB réussie !
+App 3992688 output: /home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12
+App 3992688 output:         if (!fs.existsSync(dir)) {
+App 3992688 output:         ^
+App 3992688 output: ReferenceError: fs is not defined
+App 3992688 output:     at DiskStorage.destination [as getDestination] (/home/wije1897/public_html/MonVieuxGrimoire/Backend/middleware/multer-config.js:12:9)
+App 3992688 output:     at DiskStorage._handleFile (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/storage/disk.js:31:8)
+App 3992688 output:     at /home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:137:17
+App 3992688 output:     at allowAll (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:8:3)
+App 3992688 output:     at wrappedFileFilter (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/index.js:44:7)
+App 3992688 output:     at Multipart.<anonymous> (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/multer/lib/make-middleware.js:107:7)
+App 3992688 output:     at Multipart.emit (node:events:513:28)
+App 3992688 output:     at HeaderParser.cb (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+App 3992688 output:     at HeaderParser.push (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+App 3992688 output:     at SBMH.ssCb [as _cb] (/home/wije1897/nodevenv/public_html/MonVieuxGrimoire/Backend/16/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+App 4006660 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.1f6o20
+App 4006660 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.1f6o20
+App 4006660 output: Connexion à MongoDB réussie !
+App 4006660 output: Error: ENOENT: no such file or directory, open '/images/fractures.jpg1696003387915.undefined'
+App 4006660 output: Error: ENOENT: no such file or directory, open '/images/fractures.jpg1696003393498.undefined'
+App 4006660 output: Error: ENOENT: no such file or directory, open '/images/fractures.jpg1696003486521.undefined'
+App 4006660 output: Error: ENOENT: no such file or directory, open '/images/fractures.jpg1696003791869.undefined'
+App 4057532 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.31xbl7
+App 4057532 output: Listening on pipe /opt/cpanel/ea-ruby27/root/var/run/passenger-instreg/passenger.GZfEriD/apps.s/node.31xbl7
+App 4057532 output: Connexion à MongoDB réussie !
