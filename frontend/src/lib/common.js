@@ -41,7 +41,6 @@ export async function getBooks() {
     });
     // eslint-disable-next-line array-callback-return
     const books = formatBooks(response.data);
-    console.log(books);
     return books;
   } catch (err) {
     console.error(err.response.data);
@@ -55,7 +54,6 @@ export async function getBook(id) {
       method: 'GET',
       url: `/api/books/${id}`,
     });
-    console.log(response.data); // Log the received book data
     const book = response.data;
     // eslint-disable-next-line no-underscore-dangle
     book.id = book._id;

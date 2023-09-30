@@ -12,8 +12,9 @@ function SignIn({ setUser }) {
   const navigate = useNavigate();
   const { user, authenticated } = useUser();
   if (user || authenticated) {
-    navigate(APP_ROUTES.HOME);
+    navigate(APP_ROUTES.DASHBOARD);
   }
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -30,22 +31,15 @@ function SignIn({ setUser }) {
       if (response.status === 200 && response.data.token) {
         storeInLocalStorage(response.data.token, response.data.userId);
         setUser(response.data);
+        navigate('/');
       } else {
-        setNotification({ error: true, message: 'Identifiants invalides.' });
+        setNotification({ error: true, message: 'Une erreur est survenue.' });
       }
     } catch (err) {
       console.error('Error during signing in: ', err);
 
-      if (err.response) {
-        const { status, data } = err.response;
-
-        if (status === 401) {
-          setNotification({ error: true, message: 'Identifiants invalides.' });
-        } else {
-          setNotification({ error: true, message: data.message || 'Erreur serveur.' });
-        }
-      } else if (err.request) {
-        setNotification({ error: true, message: 'Erreur de la requête.' });
+      if (err.response && err.response.status === 401) {
+        setNotification({ error: true, message: 'Combinaison email/mot de passe incorrecte.' });
       } else {
         setNotification({ error: true, message: 'Une erreur est survenue.' });
       }
@@ -56,32 +50,43 @@ function SignIn({ setUser }) {
 
   const signUp = async () => {
     try {
-      setIsLoading(true);
       if (!email || !password) {
-        setNotification({ error: true, message: 'Veuillez remplir tous les champs du formulaire.' });
+        setIsLoading(false); // Stop loading animation
+        setNotification({
+          error: true,
+          message: 'Veuillez remplir tous les champs du formulaire.',
+        });
         return;
       }
-      const response = await axios.post('/api/auth/signup', {
-        email,
-        password,
+
+      setIsLoading(true); // Start loading animation
+
+      const response = await axios({
+        method: 'POST',
+        url: '/api/auth/signup',
+        data: {
+          email,
+          password,
+        },
       });
 
-      if (response.status === 201) {
-        setNotification({ error: false, message: 'Votre compte a bien été créé, vous pouvez vous connecter.' });
+      if (!response?.data) {
+        setNotification({
+          error: true,
+          message: 'Une erreur est survenue lors de la création de votre compte.',
+        });
       } else {
-        setNotification({ error: true, message: 'Une erreur est survenue lors de la création de votre compte.' });
+        setNotification({
+          error: false,
+          message: 'Votre compte a bien été créé, vous pouvez vous connecter.',
+        });
       }
     } catch (err) {
+      setNotification({
+        error: true,
+        message: err.response?.data?.message || 'Erreur serveur.',
+      });
       console.error('Error during signing up: ', err);
-
-      if (err.response) {
-        const { data } = err.response;
-        setNotification({ error: true, message: data.message || 'Erreur serveur.' });
-      } else if (err.request) {
-        setNotification({ error: true, message: 'Erreur de la requête.' });
-      } else {
-        setNotification({ error: true, message: 'Une erreur est survenue.' });
-      }
     } finally {
       setIsLoading(false);
     }
